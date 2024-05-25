@@ -17,7 +17,7 @@
             <button id="moreId">  <span class="material-symbols-outlined"> menu </span></button>
           </div>
         </div>
-        <div id="click" class="links">
+        <div id="links" class="links">
           <a href="#">Services</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
@@ -50,11 +50,12 @@
       </div>
     </nav>
     <script>
+
       const moreId = document.querySelector('#moreId');
       const links = document.querySelector('#links')
       
       moreId.addEventListener('click', (e) => {
-        links.classList.toggle('clicks1')
+        links.classList.toggle('collapsed')
       });
     </script>
   </body>
