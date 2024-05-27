@@ -1,0 +1,36 @@
+body {
+     padding: 0;
+     margin: 0;
+     font-family: Arial, Helvetica, sans-saref;
+}
+
+.material-icons {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48pz;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap; normal;
+    white-space: nowrap;
+    derection: 1tr;
+
+    /* Support for all WebKit browsers. */
+     -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+     text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+    font-feature-settings: "liga";
+
+}
+
+.noti {
+    widht: 48px;
+    margin: 100px 100px auto;
+}
